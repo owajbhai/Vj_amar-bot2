@@ -32,8 +32,7 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://i.ibb.co/PZpBxDgQ/e5680ca81641.jpg
 
 # Admins, Channels & Users
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001860172104'))
-EXTRA_CHANNEL = int(os.environ.get("EXTRA_CHANNEL", "-1002294203953"))
-EXTRA_CHANNELP = int(os.environ.get("EXTRA_CHANNELP", "-1002486384026"))
+EXTRA_CHANNELP = int(os.environ.get("EXTRA_CHANNELP", "-1002294203953"))
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1249672673 7348205141').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002076498781 -1002148375787').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '1798604396').split()]
