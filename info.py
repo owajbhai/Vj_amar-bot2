@@ -28,8 +28,6 @@ PICS = (environ.get('PICS', 'https://i.ibb.co/PZpBxDgQ/e5680ca81641.jpg')).split
 NOR_IMG = environ.get("NOR_IMG", "https://i.ibb.co/PZpBxDgQ/e5680ca81641.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/c/2046895970/275")
 SPELL_IMG = environ.get("SPELL_IMG", "https://i.ibb.co/PZpBxDgQ/e5680ca81641.jpg")
-EXTRA_CHANNEL = int(os.environ.get("EXTRA_CHANNEL", "-1002294203953"))
-EXTRA_CHANNELP = int(os.environ.get("EXTRA_CHANNELP", "-1002486384026"))
 
 # Admins, Channels & Users
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001860172104'))
@@ -42,7 +40,7 @@ AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 # if REQUEST_TO_JOIN_MODE is true then force subscribe work like request to join fsub, else if false then work like normal fsub.
 REQUEST_TO_JOIN_MODE = bool(environ.get('REQUEST_TO_JOIN_MODE', False)) # Set True Or False
 TRY_AGAIN_BTN = bool(environ.get('TRY_AGAIN_BTN', False)) # Set True Or False (This try again button is only for request to join fsub not for normal fsub)
-auth_channel = environ.get('AUTH_CHANNEL', '-1002314687215') # give your force subscribe channel id here else leave it blank
+auth_channel = environ.get('AUTH_CHANNEL', '-1002314687215 -1002486384026 -1002294203953') # give your force subscribe channel id here else leave it blank
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 reqst_channel = environ.get('REQST_CHANNEL_ID', '')
 #PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002314687215'))
