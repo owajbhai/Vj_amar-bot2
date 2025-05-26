@@ -229,7 +229,7 @@ sɪᴢᴇ ⚙️: {file_size}
 🎬 <b>ᴍᴏᴠɪᴇs ᴄʜᴀɴɴᴇʟ :➠</b> <a href='https://t.me/+iXwNgNXtOkk1OTVl'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴊᴏɪɴ ♨️</a>
 •────•────✦✗✦───•────•
 
-<b>©️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :</b> <a href='https://t.me/+iXwNgNXtOkk1OTVl'>ᴘʀɪᴍᴇ ʙᴏᴛᴢ</a>
+<b>©️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :</b> <a href='https://t.me/Adultjon1_bot'>ADULT BOTZ</a>
 """
 
     IMDB_TEMPLATE_TXT = """
