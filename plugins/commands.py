@@ -93,8 +93,6 @@ async def start(client, message):
             return
         btn = [[
             InlineKeyboardButton("⚡𝐉𝐨𝐢𝐧 𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥⚡", url=invite_link.invite_link),
-            InlineKeyboardButton("⚡𝐉𝐨𝐢𝐧 𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥⚡", url=invite_link.invite_link),
-            InlineKeyboardButton("⚡𝐉𝐨𝐢𝐧 𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥⚡", url=invite_link.invite_link)
         ]]
         if message.command[1] != "subscribe":
             if REQUEST_TO_JOIN_MODE == True:
