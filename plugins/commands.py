@@ -48,10 +48,8 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('💫𝑨𝒅𝒅 𝑴𝒆 𝑻𝒐 𝒀𝒐𝒖𝒓 𝑮𝒓𝒐𝒖𝒑 💫', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('💹 𝐄𝐚𝐫𝐧 𝐌𝐨𝐧𝐞𝐲 💹', callback_data="shortlink_info"),
                 InlineKeyboardButton('⭐ 𝐌𝐨𝐯𝐢𝐞 𝐆𝐫𝐨𝐮𝐩 ⭐', url=GRP_LNK)
-            ],[
-                InlineKeyboardButton('💥 𝐇𝐞𝐥𝐩 💥', callback_data='help'),
+            ],[                
                 InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
             ],[
                 InlineKeyboardButton('🔻 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 🔻', callback_data='subscription')
@@ -61,8 +59,7 @@ async def start(client, message):
         else:
             buttons = [[
                 InlineKeyboardButton('💫𝑨𝒅𝒅 𝑴𝒆 𝑻𝒐 𝒀𝒐𝒖𝒓 𝑮𝒓𝒐𝒖𝒑 💫', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
-                InlineKeyboardButton('💹 𝐄𝐚𝐫𝐧 𝐌𝐨𝐧𝐞𝐲 💹', callback_data="shortlink_info"),
+            ],[                
                 InlineKeyboardButton('⭐ 𝐌𝐨𝐯𝐢𝐞 𝐆𝐫𝐨𝐮𝐩 ⭐', url=GRP_LNK)
             ],[
                 InlineKeyboardButton('💥 𝐇𝐞𝐥𝐩 💥', callback_data='help'),
@@ -130,8 +127,7 @@ async def start(client, message):
         if PREMIUM_AND_REFERAL_MODE == True:
             buttons = [[
                 InlineKeyboardButton('💫𝑨𝒅𝒅 𝑴𝒆 𝑻𝒐 𝒀𝒐𝒖𝒓 𝑮𝒓𝒐𝒖𝒑 💫', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
-                InlineKeyboardButton('💹 𝐄𝐚𝐫𝐧 𝐌𝐨𝐧𝐞𝐲 💹', callback_data="shortlink_info"),
+            ],[                
                 InlineKeyboardButton('⭐ 𝐌𝐨𝐯𝐢𝐞 𝐆𝐫𝐨𝐮𝐩 ⭐', url=GRP_LNK)
             ],[
                 InlineKeyboardButton('💥 𝐇𝐞𝐥𝐩 💥', callback_data='help'),
