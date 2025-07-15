@@ -224,10 +224,10 @@ Nᴀᴍᴇ - {}"""
     CAPTION = """📂 <b>Filename:</b> <a href='https://t.me/MOVIES_WORLDZSS'>{file_name}</a>
 sɪᴢᴇ ⚙️: {file_size}
 •────•────✦✗✦───•────•
-🎬 <b>ᴍᴏᴠɪᴇs ᴄʜᴀɴɴᴇʟ :➠</b> <a href='https://t.me/MOVIES_WORLDZSS'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴊᴏɪɴ ♨️</a>
+🎬 <b>𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐂𝐇𝐄𝐍𝐍𝐀𝐋 :➠</b> <a href='https://t.me/+O6SyLI3OLvM1OGM1'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴊᴏɪɴ ♨️</a>
 •────•────✦✗✦───•────•
 
-<b>©️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :</b> <a href='https://t.me/Botmaster55'>𝗗𝗲𝘃𝗹𝗼𝗽𝗲𝗿</a>
+<b>©️ 𝐁𝐀𝐂𝐊 𝐔𝐏 𝐂𝐇𝐄𝐍𝐍𝐀𝐋 :</b> <a href='https://t.me/MOVIES_WORLDZSS'>𝑱𝑶𝑰𝑵 𝑵𝑶𝑾</a>
 """
 
     IMDB_TEMPLATE_TXT = """
