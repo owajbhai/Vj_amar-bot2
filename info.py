@@ -24,10 +24,10 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
-PICS = (environ.get('PICS', 'https://i.ibb.co/qF5KsjD1/044c54c4a1d0.jpg')).split() #SAMPLE PIC
-NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/b69af2db776e4e85d21ec.jpg")
+PICS = (environ.get('PICS', 'https://i.ibb.co/PZpBxDgQ/e5680ca81641.jpg')).split() #SAMPLE PIC
+NOR_IMG = environ.get("NOR_IMG", "https://i.ibb.co/PZpBxDgQ/e5680ca81641.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/c/2046895970/275")
-SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://i.ibb.co/PZpBxDgQ/e5680ca81641.jpg")
 
 # Admins, Channels & Users
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001860172104'))
@@ -40,10 +40,10 @@ AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 # if REQUEST_TO_JOIN_MODE is true then force subscribe work like request to join fsub, else if false then work like normal fsub.
 REQUEST_TO_JOIN_MODE = bool(environ.get('REQUEST_TO_JOIN_MODE', False)) # Set True Or False
 TRY_AGAIN_BTN = bool(environ.get('TRY_AGAIN_BTN', False)) # Set True Or False (This try again button is only for request to join fsub not for normal fsub)
-AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002046895970').split()] # give channel id with seperate space. Ex : ('-10073828 -102782829 -1007282828')
-
+auth_channel = environ.get('AUTH_CHANNEL', '-1002314687215') # give your force subscribe channel id here else leave it blank
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 reqst_channel = environ.get('REQST_CHANNEL_ID', '')
+#PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002314687215'))
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '')
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
@@ -68,7 +68,7 @@ PAYMENT_TEXT = environ.get('PAYMENT_TEXT','<b>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀ
 OWNER_USERNAME = environ.get('OWNER_USERNAME', 'botmaster55') # owner username without @
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/MOVIES_WORLDZSS')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/MovieSearchAutoGroup')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/MOVIES_WORLDZSS')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/c/2046895970/314')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '-1001937259467') # Support Chat Link Without https:// or @
@@ -81,7 +81,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 # True Or False
 
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
-PM_SEARCH = bool(environ.get('PM_SEARCH', False))
+PM_SEARCH = bool(environ.get('PM_SEARCH', True))
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
@@ -93,25 +93,25 @@ SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
-PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "True")), True)
-PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "False")), False)
+PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), True)
+PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Token Verification Info :
 VERIFY = bool(environ.get('VERIFY', False))
 VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
-VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'yummyurl.com')
-VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '04e3b05d436133c632582318e20519f025bbf206')
+VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'https://gplinks.co')
+VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'c1e67b399cfbabbeaf8d6087b4bdbb708c4c0a1a')
 # if verify second shortner is True then fill below url and api
-VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', 'yummyurl.com')
-VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '04e3b05d436133c632582318e20519f025bbf206')
-VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/c/2046895970/314')
+VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', 'https://gplinks.co')
+VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', 'c1e67b399cfbabbeaf8d6087b4bdbb708c4c0a1a')
+VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/c/2076498781/602')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'yummyurl.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '04e3b05d436133c632582318e20519f025bbf206')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://gplinks.co')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'c1e67b399cfbabbeaf8d6087b4bdbb708c4c0a1a')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
@@ -146,7 +146,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://aggressive-evanne-jihad1350-989ba0ae.koyeb.app/")
+URL = environ.get("URL", "https://bare-geneva-rahulyt-013b00bc.koyeb.app/")
 
 
 # Rename Info : If True Then Bot Rename File Else Not
