@@ -221,7 +221,7 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """📂 <b>Filename:</b> <a href='https://t.me/MovieSearchAutoGroup'>{file_name}</a>
+    CAPTION = """📂 <b>Filename:</b> <a href='https://t.me/Prime_Movie_YT_Group'>{file_name}</a>
 sɪᴢᴇ ⚙️: {file_size}
 •────•────✦✗✦───•────•
 🎬 <b>𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐂𝐇𝐄𝐍𝐍𝐀𝐋 :➠</b> <a href='https://t.me/+KeFS3VBfego5NTU1'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴊᴏɪɴ ♨️</a>
