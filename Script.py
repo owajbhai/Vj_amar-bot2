@@ -15,7 +15,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
     
 ‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
 ‣ ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
-‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/botmaster55'>MASTER 😎</a> 
+‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/ALIBABA_KINGS'>MASTER 😎</a> 
 ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
 ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
 ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
@@ -89,9 +89,9 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
     EXTRAMOD_TXT = """ʜᴇʟᴘ: Exᴛʀᴀ Mᴏᴅᴜʟᴇs
 <b>ɴᴏᴛᴇ:</b>
 my features Stay here new features coming soon...  
- <b>✯ Maintained by : <a href=https://t.me/Spider_Man_01>Peter Parker</a></b>
+ <b>✯ Maintained by : <a href=https://t.me/ALIBABA_KINGS>Peter Parker</a></b>
   
- <b>✯ Join here : <a href=https://telegram.me/sujay5372>☢Join my updateds☢</a></b> 
+ <b>✯ Join here : <a href=https://t.me/ALIBABA_KINGS>☢Join my updateds☢</a></b> 
   
  ./id - <code>ɢᴇᴛ ɪᴅ ᴏꜰ ᴀ ꜱᴘᴇᴄɪꜰɪᴇᴅ ᴜꜱᴇʀ.</ 
  code> 
@@ -221,13 +221,13 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """📂 <b>Filename:</b> <a href='https://t.me/Prime_Movie_YT_Group'>{file_name}</a>
+    CAPTION = """📂 <b>Filename:</b> <a href='https://t.me/Ali_Baba_Group'>{file_name}</a>
 sɪᴢᴇ ⚙️: {file_size}
 •────•────✦✗✦───•────•
-🎬 <b>𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐂𝐇𝐄𝐍𝐍𝐀𝐋 :➠</b> <a href='https://t.me/+KeFS3VBfego5NTU1'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴊᴏɪɴ ♨️</a>
+🎬 <b>𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐂𝐇𝐄𝐍𝐍𝐀𝐋 :➠</b> <a href='https://t.me/+ObQK30f_pkAxOGQ1'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴊᴏɪɴ ♨️</a>
 •────•────✦✗✦───•────•
 
-<b>©️ 𝐁𝐀𝐂𝐊 𝐔𝐏 𝐂𝐇𝐄𝐍𝐍𝐀𝐋 :</b> <a href='https://t.me/ClipMateBhai'>𝑱𝑶𝑰𝑵 𝑵𝑶𝑾</a>
+<b>©️ 𝐁𝐀𝐂𝐊 𝐔𝐏 𝐂𝐇𝐄𝐍𝐍𝐀𝐋 :</b> <a href='https://t.me/+ObQK30f_pkAxOGQ1'>𝑱𝑶𝑰𝑵 𝑵𝑶𝑾</a>
 """
 
     IMDB_TEMPLATE_TXT = """
