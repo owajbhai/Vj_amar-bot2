@@ -27,8 +27,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('💫𝑨𝒅𝒅 𝑴𝒆 𝑻𝒐 𝒀𝒐𝒖𝒓 𝑮𝒓𝒐𝒖𝒑 💫', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ],[
-            InlineKeyboardButton('🐠 𝑺𝒖𝒑𝒑𝒐𝒓𝒕 𝑮𝒓𝒐𝒖𝒑 🐠', url="https://t.me/Prime_Movie_Request_bot"),
-            InlineKeyboardButton('⭐ 𝐌𝐨𝐯𝐢𝐞 𝐆𝐫𝐨𝐮𝐩 ⭐', url='https://t.me/Prime_Movie_YT_Group')
+            InlineKeyboardButton('🐠 𝑺𝒖𝒑𝒑𝒐𝒓𝒕 𝑮𝒓𝒐𝒖𝒑 🐠', url="https://t.me/Ali_Baba_Group"),
+            InlineKeyboardButton('⭐ 𝐌𝐨𝐯𝐢𝐞 𝐆𝐫𝐨𝐮𝐩 ⭐', url='https://t.me/Ali_Baba_Group')
         ],[
             InlineKeyboardButton('🌜𝐉𝐨𝐢𝐧 𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🌛', url=CHNL_LNK)
         ]]
@@ -113,7 +113,7 @@ async def start(client, message):
                 await db.set_msg_command(message.from_user.id, com=message.command[1])
                 text = "**🗃️ 𝐉𝐨𝐢𝐧 𝐓𝐡𝐞 𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐓𝐨 𝐆𝐞𝐭 𝐌𝐨𝐯𝐢𝐞 𝐅𝐢𝐥𝐞 🗃️\n\n🔆𝐅𝐢𝐫𝐬𝐭 𝐂𝐥𝐢𝐜𝐤 𝐎𝐧 𝐉𝐨𝐢𝐧 𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐁𝐮𝐭𝐭𝐨𝐧 🔆\nTʜᴇɴ Cʟɪᴄᴋ Oɴ Rᴇǫᴜᴇsᴛ Tᴏ Jᴏɪɴ Bᴜᴛᴛᴏɴ.**"
         else:
-            text = "**🗃️ 𝐉𝐨𝐢𝐧 𝐓𝐡𝐞 𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐓𝐨 𝐆𝐞𝐭 𝐌𝐨𝐯𝐢𝐞 𝐅𝐢𝐥𝐞 🗃️\n\n🔆𝐅𝐢𝐫𝐬𝐭 𝐂𝐥𝐢𝐜𝐤 𝐎𝐧 𝐉𝐨𝐢𝐧 𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐁𝐮𝐭𝐭𝐨𝐧 🔆\n💊𝐓𝐡𝐞𝐧 𝐉𝐨𝐢𝐧 𝐂𝐡𝐞𝐧𝐧𝐚𝐥 𝐀𝐟𝐭𝐞𝐫 𝐂𝐥𝐢𝐜𝐤 𝐎𝐧 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 𝐁𝐮𝐭𝐭𝐨𝐧💊\n\n𝐀𝐧𝐲 𝐏𝐫𝐨𝐛𝐥𝐞𝐦 𝐃𝐌👉 @Prime_Movie_Request_bot.**"
+            text = "**🗃️ 𝐉𝐨𝐢𝐧 𝐓𝐡𝐞 𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐓𝐨 𝐆𝐞𝐭 𝐌𝐨𝐯𝐢𝐞 𝐅𝐢𝐥𝐞 🗃️\n\n🔆𝐅𝐢𝐫𝐬𝐭 𝐂𝐥𝐢𝐜𝐤 𝐎𝐧 𝐉𝐨𝐢𝐧 𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐁𝐮𝐭𝐭𝐨𝐧 🔆\n💊𝐓𝐡𝐞𝐧 𝐉𝐨𝐢𝐧 𝐂𝐡𝐞𝐧𝐧𝐚𝐥 𝐀𝐟𝐭𝐞𝐫 𝐂𝐥𝐢𝐜𝐤 𝐎𝐧 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 𝐁𝐮𝐭𝐭𝐨𝐧💊\n\n𝐀𝐧𝐲 𝐏𝐫𝐨𝐛𝐥𝐞𝐦 𝐃𝐌👉 @ALIBABA_KINGS.**"
         await client.send_message(
             chat_id=message.from_user.id,
             text=text,
@@ -267,7 +267,7 @@ async def start(client, message):
                         InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                         InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                     ],[
-                        InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="https://t.me/Prime_Movie_Request_bot")
+                        InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="https://t.me/ALIBABA_KINGS")
                     ],[
                         InlineKeyboardButton("🚀 Fast Download 🚀", url=download),  # we download Link
                         InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
@@ -279,7 +279,7 @@ async def start(client, message):
                         InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                         InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                     ],[
-                        InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="https://t.me/Prime_Movie_Request_bot")
+                        InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="https://t.me/ALIBABA_KINGS")
                     ]]
                 msg = await client.send_cached_media(
                     chat_id=message.from_user.id,
@@ -464,7 +464,7 @@ async def start(client, message):
                     InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                     InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                 ],[
-                    InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="https://t.me/Prime_Movie_Request_bot")
+                    InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="https://t.me/ALIBABA_KINGS")
                 ],[
                     InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @KingVJ01
                 ]]
@@ -473,7 +473,7 @@ async def start(client, message):
                     InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                     InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                 ],[
-                    InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="https://t.me/Prime_Movie_Request_bot")
+                    InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="https://t.me/ALIBABA_KINGS")
                 ]]
             msg = await client.send_cached_media(
                 chat_id=message.from_user.id,
@@ -537,7 +537,7 @@ async def start(client, message):
                     InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                     InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                 ],[
-                    InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/Prime_Movie_Request_bot")
+                    InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/ALIBABA_KINGS")
                 ],[
                     InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @KingVJ01
                 ]]
@@ -546,7 +546,7 @@ async def start(client, message):
                     InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                     InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                 ],[
-                    InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/Prime_Movie_Request_bot")
+                    InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/ALIBABA_KINGS")
                 ]]
             msg = await client.send_cached_media(
                 chat_id=message.from_user.id,
@@ -609,7 +609,7 @@ async def start(client, message):
             InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
             InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
         ],[
-            InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/Prime_Movie_Request_bot")
+            InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/ALIBABA_KINGS")
         ],[
             InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @KingVJ01
         ]]
@@ -618,7 +618,7 @@ async def start(client, message):
             InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
             InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
         ],[
-            InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/Prime_Movie_Request_bot")
+            InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/ALIBABA_KINGS")
         ]]
     msg = await client.send_cached_media(
         chat_id=message.from_user.id,
